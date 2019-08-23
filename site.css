@@ -13,14 +13,21 @@ th, td {
 }
 
 .project-badge {
-    background: rgb(88, 88, 180);
     height: 45px;
-    width: 180px;
+    /* width: 180px; */
     border-radius: 12px 6px 12px 6px;
     color: #fff;
     padding: 12px 20px 5px 20px;
     margin:auto;
     cursor: pointer;
+}
+
+.badge-dkblue {
+    background: rgb(88, 88, 180);
+}
+
+.badge-dkgreen {
+    background: rgb(16, 129, 16);
 }
 
 .project-badge > span {
